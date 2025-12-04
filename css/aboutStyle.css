@@ -9,7 +9,7 @@
     border-style: line;
     margin: auto;
     transform: translateX(-50%);
-    bottom: 20px;
+    bottom: 25px;
     position: fixed;
     left: 50%;
     transition: transform 0.2s ease-in;
