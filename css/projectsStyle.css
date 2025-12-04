@@ -1,0 +1,19 @@
+.buttonh {
+    display: inline-flex;
+    background-color: gainsboro;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in;
+    margin: 8px;
+
+
+}
+
+.buttonh a {
+    color: inherit;
+    display: flex;
+
+}
+
+.buttonh:hover {
+    transform: scale(2);
+}
