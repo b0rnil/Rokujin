@@ -23,11 +23,13 @@ a {
 /*nav bar styling*/
 .navbar {
     flex: 1;
-    background-color: rgb(244, 199, 199);
+    background: linear-gradient(45deg, rgb(255, 177, 177), rgb(101, 101, 198), wheat, lightpink, rgb(131, 2, 131));
     padding: 15px 10px;
     position: sticky;
     border-radius: 12px;
     word-spacing: 50px;
+    animation: gradientMove 7s ease infinite;
+    background-size: 400% 400%;
 }
 
 .rights{
@@ -86,6 +88,7 @@ body{
     background: linear-gradient(-45deg, #ff6b6b, #feca57, #48dbfb, #5f27cd);
     background-size: 400% 400%;
     animation: gradientMove 7s ease infinite;
+    
 
 }
 
