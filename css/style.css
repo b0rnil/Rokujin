@@ -23,7 +23,7 @@ a {
 /*nav bar styling*/
 .navbar {
     flex: 1;
-    background: linear-gradient(45deg,
+    background: linear-gradient(-45deg,
     #ff9a9a,
     #ffdca3,
     #6d6de6,
